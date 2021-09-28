@@ -4,8 +4,8 @@ local font = resource.load_font "Ubuntu-C.ttf"
 local json = require "json"
 
 local serial = sys.get_env "SERIAL"
-local location = "<ladataan…>"
-local description = "<…>"
+local location = "Yhdistetään…"
+local description = "…"
 
 local res = util.resource_loader{
     "device_details.png";
